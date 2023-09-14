@@ -1,9 +1,71 @@
-<button>
-  Hello
+<style>
+  .subscribe_button {
+    background-color: brown;
+    color: white;
+    height: 36;
+    width: 100;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+  }
+    .subscribe_button:hover{
+      opacity: 0.8;
+    }
+
+    .subscribe_button:active{
+      opacity: 0.5;
+    }
+    
+    .join_button {
+      background-color: white;
+      color: rgb(105, 129, 240);
+      border-color: rgb(105, 129, 240);
+      border-style: solid;
+      border-width: 1px;
+      height: 36;
+      width: 60;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.15s,
+        color 0.15s;
+    }
+    .join_button:hover{
+      background-color: blue;
+      color: white;
+    }
+    .join_button:active{
+      opacity: 0.6;
+    }
+
+    .join_button:active{
+      opacity: 0.6;
+    }
+      .Tweet_button {
+        background-color: skyblue;
+        color: white;
+        border: none;
+        height: 36;
+        width: 60;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+      }
+      .Tweet_button:hover{
+        box-shadow: 5px 5px 10px rgba(5, 5, 5, 00.15);
+      }
+
+  
+</style>
+<button class="subscribe_button">
+  Subscribe
 </button>
-<p>
-  This is my first html paragraph
-</p>
-<a href="https://www.youtube.com/" target="_blank">
-  link to youtube
-</a>
+<button class="join_button">
+  Join
+</button>
+<button class="Tweet_button">
+  Tweet
+</button>
